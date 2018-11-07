@@ -54,6 +54,7 @@ function ui_array (Setup $setup, Locale $locale)
 				'pt-br' => 'Brazilian Portuguese',
 				'ro' => 'Romanian',
 				'tr' => 'Turkish',
+				'vi' => 'Vietnamese',
 				'zh-cn' => 'Simplified Chinese'
 			)
 		),
