@@ -63,7 +63,7 @@ class CommentsUI extends FormUI
 				$name_link = new HTMLTag ('a', array (
 					'href' => $href,
 					'id' => $this->prefix ('name-' . $permalink),
-					'rel' => 'noopener noreferrer',
+					'rel' => 'noopener noreferrer nofollow',
 					'target' => '_blank',
 					'title' => $name,
 					'innerHTML' => $name

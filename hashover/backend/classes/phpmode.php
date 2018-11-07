@@ -376,7 +376,7 @@ class PHPMode
 			$template['comment'] = preg_replace ('/\[(img|\/img)\]/iS', '', $template['comment']);
 
 			// Add HTML anchor tag to URLs (hyperlinks)
-			$template['comment'] = preg_replace ($this->linkRegex, '<a href="\\1" rel="noopener noreferrer" target="_blank">\\1</a>', $template['comment']);
+			$template['comment'] = preg_replace ($this->linkRegex, '<a href="\\1" rel="noopener noreferrer nofollow" target="_blank">\\1</a>', $template['comment']);
 
 			// Parse markdown in comment
 			if ($this->setup->usesMarkdown !== false) {

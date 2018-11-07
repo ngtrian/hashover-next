@@ -1,7 +1,7 @@
 // Add comment parsing regular expressions (parsecomment.js)
 HashOverConstructor.prototype.rx.html = {
 	// URL replacement for automatic hyperlinks
-	linksReplace: '<a href="$1" rel="noopener noreferrer" target="_blank">$1</a>',
+	linksReplace: '<a href="$1" rel="noopener noreferrer nofollow" target="_blank">$1</a>',
 
 	// Matches various line ending styles
 	lines: /(?:\r\n|\r|\n)/g,

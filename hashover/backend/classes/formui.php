@@ -704,7 +704,7 @@ class FormUI
 				// Create link to user's website
 				$main_form_hyperlink = new HTMLTag ('a', array (
 					'href' => $user_website,
-					'rel' => 'noopener noreferrer',
+					'rel' => 'noopener noreferrer nofollow',
 					'target' => '_blank',
 					'title' => $user_name,
 					'innerHTML' => $user_name
