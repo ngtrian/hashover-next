@@ -59,7 +59,7 @@ try {
 		$data['link-text'] = $hashover->getCommentCount ();
 	} else {
 		// If not, set the count link text to "Post Comment"
-		$data['link-text'] = $hashover->locale->text['post-button'];
+		$data['link-text'] = $hashover->locale->text['comments'];
 	}
 
 	// Generate statistics
